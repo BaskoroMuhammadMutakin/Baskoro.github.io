@@ -5,96 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio Baskoro Muhammad Mutakin - Web Developer dan Back-End Enthusiast.">
   <title>Baskoro Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-6jmQ3+gXNpz0kT/8YJAm5lUd1jYVcBv4McZbmz0R+Y8T3F3F9n7EqMH1ROgFnnfirvFh3bUvF1gctSmkCsB5cg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- CSS External -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <div class="brand"><a href="#about">Baskoro</a></div>
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-      </nav>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand"><a href="#about">Baskoro</a></div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </div>
+</header>
+
+<main class="content">
+
+<section id="about">
+  <div class="profile-pic">BM</div>
+  <div class="about-text">
+    <h1>Halo! Saya Baskoro Muhammad Mutakin</h1>
+    <p>Mahasiswa Semester 4 · Web Developer · Back-End Enthusiast</p>
+    <p>Saya membangun aplikasi web menggunakan PHP dan Laravel.</p>
+    <p><strong>Core skills:</strong> PHP · Laravel · Python · SQL</p>
+
+    <div class="social-links">
+      <a href="https://github.com/BaskoroMuhammadMutakin" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.instagram.com/baslagyerrr/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main class="content">
-    <section id="about" class="section">
-      <div class="about-container">
-        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23212b42'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='24' fill='%23ffffff'%3EFoto tidak tersedia%3C/text%3E%3C/svg%3E"
-             alt="Baskoro Muhammad Mutakin"
-             class="profile-pic">
+<section id="projects">
+  <div class="section-header">
+    <h2>Projects</h2>
+    <a class="view-all" href="https://github.com/BaskoroMuhammadMutakin" target="_blank">All repos →</a>
+  </div>
 
-        <div class="about-text">
-          <h1>Halo! Saya Baskoro Muhammad Mutakin</h1>
-          <p>Mahasiswa Semester 4 | Web Developer | Back-End Enthusiast</p>
-          <p>Saya membangun aplikasi web menggunakan PHP dan Laravel, dengan fokus pada solusi yang praktis dan fungsional.</p>
-          <p><strong>Core skills:</strong> PHP &middot; Laravel &middot; Python &middot; SQL</p>
+  <div class="gallery">
 
-          <p class="social-links">
-            <a href="https://github.com/BaskoroMuhammadMutakin" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/baslagyerrr/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </p>
-        </div>
+    <article class="card">
+      <div class="thumb">
+        <div class="thumb-placeholder">Sistem Pengaduan</div>
       </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="section-header">
-        <h2>Projects</h2>
-        <a class="view-all" href="https://github.com/BaskoroMuhammadMutakin" target="_blank" rel="noopener noreferrer">All repos &rarr;</a>
-      </div>
-
-      <div class="gallery">
-
-        <article class="card">
-          <a class="thumb" href="https://github.com/BaskoroMuhammadMutakin" target="_blank" rel="noopener noreferrer" aria-label="Open project">
-            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23212b42'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='28' fill='%23ffffff'%3ESistem Pengaduan%3C/text%3E%3C/svg%3E"
-                 alt="Sistem Pengaduan Masyarakat thumbnail"
-                 loading="lazy">
+      <div class="card-body">
+        <h3 class="card-title">
+          <a href="http://pengaduan-masyarakat.wuaze.com/index.php" target="_blank">
+            Sistem Pengaduan Masyarakat
           </a>
-          <div class="card-body">
-            <h3 class="card-title">
-              <a href="https://github.com/BaskoroMuhammadMutakin" target="_blank" rel="noopener noreferrer">Sistem Pengaduan Masyarakat</a>
-            </h3>
-            <p class="card-text">Aplikasi web berbasis PHP untuk menampung dan mengelola pengaduan dari masyarakat secara digital.</p>
-            <p class="card-tags">PHP &middot; MySQL</p>
-            <div class="card-actions">
-              <a class="btn" href="https://github.com/BaskoroMuhammadMutakin" target="_blank" rel="noopener noreferrer">Open</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="card">
-          <a class="thumb" href="https://github.com/BaskoroMuhammadMutakin" target="_blank" rel="noopener noreferrer" aria-label="Open project">
-            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23212b42'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='28' fill='%23ffffff'%3EAplikasi Keuangan%3C/text%3E%3C/svg%3E"
-                 alt="Aplikasi Pengelola Keuangan thumbnail"
-                 loading="lazy">
-          </a>
-          <div class="card-body">
-            <h3 class="card-title">
-              <a href="https://github.com/BaskoroMuhammadMutakin" target="_blank" rel="noopener noreferrer">Aplikasi Pengelola Keuangan</a>
-            </h3>
-            <p class="card-text">Aplikasi manajemen keuangan berbasis Laravel untuk mencatat pemasukan, pengeluaran, dan laporan keuangan.</p>
-            <p class="card-tags">Laravel &middot; MySQL</p>
-            <div class="card-actions">
-              <a class="btn" href="https://github.com/BaskoroMuhammadMutakin" target="_blank" rel="noopener noreferrer">Open</a>
-            </div>
-          </div>
-        </article>
-
+        </h3>
+        <p class="card-text">Aplikasi web berbasis PHP untuk pengaduan masyarakat.</p>
+        <p class="card-tags">PHP · MySQL</p>
       </div>
-    </section>
-  </main>
+    </article>
 
-  <footer class="site-footer">
-    &copy; 2026 Baskoro Muhammad Mutakin &middot; Portfolio GitHub Pages
-  </footer>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  &copy; 2026 Baskoro Muhammad Mutakin
+</footer>
+
+<script>
+function openPreview(url, title) {
+  document.getElementById('modal-title').textContent = title;
+}
+</script>
+
 </body>
 </html>
