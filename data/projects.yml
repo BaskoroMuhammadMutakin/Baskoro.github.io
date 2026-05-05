@@ -1,0 +1,12 @@
+- title: "Sistem Pengaduan Masyarakat"
+  link: "https://github.com/BaskoroMuhammadMutakin"
+  description: "Aplikasi web berbasis PHP untuk menampung dan mengelola pengaduan dari masyarakat secara digital."
+  stack: "PHP · MySQL"
+  image: "/assets/images/placeholder_project.jpg"
+ 
+- title: "Aplikasi Pengelola Keuangan"
+  link: "https://github.com/BaskoroMuhammadMutakin"
+  description: "Aplikasi manajemen keuangan berbasis Laravel untuk mencatat pemasukan, pengeluaran, dan laporan keuangan."
+  stack: "Laravel · MySQL"
+  image: "/assets/images/placeholder_project.jpg"
+ 

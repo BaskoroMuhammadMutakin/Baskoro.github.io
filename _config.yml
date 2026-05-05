@@ -1,0 +1,9 @@
+title: Baskoro Portfolio
+author: Baskoro Muhammad Mutakin
+url: "https://baskoromuhammadmutakin.github.io"
+baseurl: ""
+
+github_username: BaskoroMuhammadMutakin
+
+plugins:
+  - jekyll-feed
